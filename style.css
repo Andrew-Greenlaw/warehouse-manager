@@ -1,0 +1,51 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1589793463357-5fb813435467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 2rem;
+}
+
+.display {
+  background-color: rgb(25, 25, 25);
+  margin-top: 4rem;
+  height: 80vh;
+  outline: .2rem solid white;
+}
+
+.display-card {
+  outline: .1rem solid white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: .5rem;
+}
+
+.packages-screen {
+  justify-content: center;
+  color: rgb(25, 135, 84);
+}
+
+.display-screen {
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+button {
+  color: white;
+  background-color: rgb(25, 25, 25);
+  border: unset;
+
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.command-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
